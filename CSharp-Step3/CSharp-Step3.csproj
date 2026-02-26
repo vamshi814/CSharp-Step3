@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>_3WaitAll.ThreadMain1</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +49,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Synchronous\1SyncDemo.cs" />
+    <Compile Include="Tasks\2SleepStopwatch.cs" />
+    <Compile Include="Tasks\1TaskDemo.cs" />
+    <Compile Include="Tasks\3WaitAll.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
