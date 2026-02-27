@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>_3WaitAll.ThreadMain1</StartupObject>
+    <StartupObject>TaskDelay.TaskDelay</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,10 +49,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealLife\AllTogether.cs" />
+    <Compile Include="RealLife\AsyncAwait.cs" />
+    <Compile Include="RealLife\MultiThreading.cs" />
+    <Compile Include="RealLife\RealScenario.cs" />
+    <Compile Include="RealLife\Task.cs" />
     <Compile Include="Synchronous\1SyncDemo.cs" />
     <Compile Include="Tasks\2SleepStopwatch.cs" />
     <Compile Include="Tasks\1TaskDemo.cs" />
     <Compile Include="Tasks\3WaitAll.cs" />
+    <Compile Include="RealLife\Explanation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
